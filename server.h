@@ -68,7 +68,6 @@ int acceptClient (SOCKET server)
 	if (retval == 1)
 	{
 		client = accept (server, &(clients.client_addr), &length);
-		//printf ("Client %ld si e' connesso.\n", client);
 		if (*clients.first == 0)
 		{
 			*(clients.clients) = client;
