@@ -2,7 +2,7 @@
 
 ##Description
 
-### Simple EchoServer with multi-clients management without the use of threads.
+Simple EchoServer with multi-clients management without the use of threads.
 
 ##License
 
