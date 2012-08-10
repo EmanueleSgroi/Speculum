@@ -52,7 +52,7 @@ SOCKET initialize()
 	return server;
 }
 
-void acceptClient (SOCKET server)
+int acceptClient (SOCKET server)
 {
 	int retval;
 	int length = sizeof (struct sockaddr);
@@ -68,17 +68,20 @@ void acceptClient (SOCKET server)
 	if (retval == 1)
 	{
 		client = accept (server, &(clients.client_addr), &length);
-		printf ("Client %ld si e' connesso.\n", client);
+		//printf ("Client %ld si e' connesso.\n", client);
 		if (*clients.first == 0)
 		{
 			*(clients.clients) = client;
 			*(clients.first) = 1;
+			return client;
 		}
 		else
 		{
 			*(clients.clients+(++*(clients.num_clients))) = client;
+			return client;
 		}
 	}
+	return 0;
 }
 
 int recvClient (SOCKET client)

@@ -13,7 +13,10 @@ int main(int argn,char **argv)
 
 	while (1)
 	{
-		acceptClient (server);
+		if (client = acceptClient (server))
+		{
+			printf ("Client %ld si e' connesso.\n", client);
+		}
 		
 		for(client = 0; client <= *(clients.num_clients); client++)
 		{
