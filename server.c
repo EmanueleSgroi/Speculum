@@ -2,7 +2,7 @@
  * Simple EchoServer with multi-clients management without the use of threads
  */
 
-#include "server.h"
+#include "lib/server.h"
 
 int main(int argn,char **argv)
 {
