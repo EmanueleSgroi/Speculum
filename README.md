@@ -6,7 +6,7 @@ Simple EchoServer with multi-clients management without the use of threads.
 
 ##License
 
-### ImageDetective is released under the [GNU General Public License (GPL3)](https://www.gnu.org/licenses/gpl-3.0.html):
+### Speculum is released under the [GNU General Public License (GPL3)](https://www.gnu.org/licenses/gpl-3.0.html):
 Copyright (C) 2012 EmanueleSgroi <emanuele.sgroi@gmail.com>
 
 ##License
