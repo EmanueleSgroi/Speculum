@@ -9,11 +9,6 @@ Simple EchoServer with multi-clients management without the use of threads.
 ### Speculum is released under the [GNU General Public License (GPL3)](https://www.gnu.org/licenses/gpl-3.0.html):
 Copyright (C) 2012 EmanueleSgroi <emanuele.sgroi@gmail.com>
 
-##License
-
-### Speculum is released under the [GNU General Public License (GPL3)](https://www.gnu.org/licenses/gpl-3.0.html):
-Copyright (C) 2012 EmanueleSgroi <emanuele.sgroi@gmail.com>
-
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or (at
