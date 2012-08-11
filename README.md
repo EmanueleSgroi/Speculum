@@ -4,6 +4,7 @@
 
 Simple EchoServer with multi-clients management without the use of threads.
 
+Compile: ```gcc -o server server.c lib/speculum.c -lws2_32```
 ##License
 
 ### Speculum is released under the [GNU General Public License (GPL3)](https://www.gnu.org/licenses/gpl-3.0.html):
