@@ -2,7 +2,10 @@
  * Simple EchoServer with multi-clients management without the use of threads
  */
 
-#include "lib/server.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <winsock.h>
+#include "lib/speculum.h"
 
 int main(int argn,char **argv)
 {
